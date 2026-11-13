@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CHI TIẾT ĐƠN ĐẶT SÂN"
+                android:textColor="#111111"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/textChiTietDon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                android:layout_marginBottom="24dp"/>
+
+            <Button
+                android:id="@+id/buttonQuayLai"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Quay Lại"
+                android:textColor="#00796B"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="#E0F2F1"
+                app:cornerRadius="25dp"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/buttonHuyDon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Hủy Đơn Đặt Sân"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="#D32F2F"
+                app:cornerRadius="25dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
